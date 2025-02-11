@@ -13,6 +13,7 @@ const findTheOldest = function(arr) {
     } else if (!b.yearOfDeath) {
       bDeathYear = currentYear;
     }
+  
 
     return ((aDeathYear - a.yearOfBirth) - (bDeathYear - b.yearOfBirth));
 
